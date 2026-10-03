@@ -1,0 +1,116 @@
+{
+  "$schema": "https://artistjson.org/schema/v1/artist.schema.json",
+  "spec_version": "1.0.0",
+  "last_updated": "2026-10-01T15:00:00Z",
+  "generator": { "name": "ArtistJSON", "version": "0.1.0", "url": "https://artistjson.app" },
+  "hub": "https://hub.artistjson.org/",
+  "artist": {
+    "name": "The Midnight Echo",
+    "slug": "the-midnight-echo",
+    "type": "group",
+    "genres": ["indie rock", "shoegaze"],
+    "origin": { "city": "Brooklyn", "region": "NY", "country_code": "US" },
+    "website": "https://themidnightecho.com",
+    "image": { "url": "https://cdn.artistjson.app/a/the-midnight-echo/artist.jpg", "width": 1200, "height": 1200, "alt": "The Midnight Echo press photo" },
+    "isni": "0000000466753065",
+    "ids": {
+      "spotify": "7H55rcKCfwqkyDFH9wpZ6R",
+      "musicbrainz": "f1a4a9f3-5b2a-4a2a-9f3e-2b9d1c0f6a11",
+      "bandsintown": "The Midnight Echo",
+      "ticketmaster_attraction": "K8vZ917G7x0"
+    },
+    "socials": {
+      "instagram": "https://instagram.com/themidnightecho",
+      "spotify": "https://open.spotify.com/artist/7H55rcKCfwqkyDFH9wpZ6R",
+      "bandcamp": "https://themidnightecho.bandcamp.com",
+      "youtube": "https://youtube.com/@themidnightecho"
+    },
+    "contact": { "booking": "booking@themidnightecho.com", "label": "Neon Horizons Records" }
+  },
+  "tour_dates": [
+    {
+      "event_id": "evt_9081",
+      "type": "concert",
+      "start": "2026-11-14T20:00:00-05:00",
+      "doors": "2026-11-14T19:00:00-05:00",
+      "timezone": "America/New_York",
+      "status": "scheduled",
+      "venue": {
+        "name": "The Bowery Ballroom",
+        "address": "6 Delancey St",
+        "city": "New York",
+        "region": "NY",
+        "postal_code": "10002",
+        "country_code": "US",
+        "latitude": 40.7204,
+        "longitude": -73.9934,
+        "url": "https://www.boweryballroom.com"
+      },
+      "lineup": [
+        { "name": "The Midnight Echo", "role": "headliner" },
+        { "name": "Glass Harbor", "role": "support", "artist_json": "https://glassharbor.band/.well-known/artist.json" }
+      ],
+      "age_restriction": "18+",
+      "tickets": {
+        "url": "https://www.ticketmaster.com/event/00006150E6A52B1C",
+        "is_sold_out": false,
+        "on_sale_at": "2026-09-12T10:00:00-04:00",
+        "price_min": { "amount": 28.00, "currency": "USD" },
+        "price_max": { "amount": 45.00, "currency": "USD" }
+      },
+      "sources": [
+        { "provider": "ticketmaster", "external_id": "vvG1zZ9Pj4Nc8f", "url": "https://www.ticketmaster.com/event/00006150E6A52B1C" },
+        { "provider": "bandsintown", "external_id": "1049823391" }
+      ],
+      "updated_at": "2026-09-30T08:12:44Z"
+    }
+  ],
+  "releases": [
+    {
+      "release_id": "rel_5521",
+      "title": "Neon Horizons",
+      "type": "album",
+      "release_date": "2026-08-20",
+      "status": "released",
+      "upc": "193483920192",
+      "label": "Neon Horizons Records",
+      "artwork": { "url": "https://cdn.artistjson.app/a/the-midnight-echo/rel_5521.jpg", "width": 3000, "height": 3000 },
+      "tracks": [
+        { "position": 1, "title": "Sodium Light", "isrc": "USUM72612345", "duration_ms": 214000 },
+        { "position": 2, "title": "Neon Horizons", "isrc": "USUM72612346", "duration_ms": 251000, "explicit": false }
+      ],
+      "links": {
+        "spotify": "https://open.spotify.com/album/4aawyAB9vmqN3uQ7FjRGTy",
+        "apple_music": "https://music.apple.com/us/album/neon-horizons/1700000000",
+        "bandcamp": "https://themidnightecho.bandcamp.com/album/neon-horizons"
+      },
+      "ids": { "spotify": "4aawyAB9vmqN3uQ7FjRGTy", "apple_music": "1700000000" }
+    }
+  ],
+  "merchandise": [
+    {
+      "product_id": "prod_773",
+      "name": "Neon Horizons 180g Vinyl",
+      "type": "physical_media",
+      "media_format": "vinyl",
+      "release_id": "rel_5521",
+      "images": [{ "url": "https://cdn.shopify.com/s/files/1/0000/0000/products/vinyl.jpg" }],
+      "price": { "amount": 35.00, "currency": "USD" },
+      "inventory": { "in_stock": true, "quantity_remaining": 142, "low_stock": false },
+      "variants": [
+        { "variant_id": "var_773_black", "name": "Black", "sku": "NH-LP-BLK", "price": { "amount": 35.00, "currency": "USD" }, "inventory": { "in_stock": true, "quantity_remaining": 120 } },
+        { "variant_id": "var_773_clear", "name": "Clear (limited)", "sku": "NH-LP-CLR", "price": { "amount": 40.00, "currency": "USD" }, "inventory": { "in_stock": true, "quantity_remaining": 22, "low_stock": true } }
+      ],
+      "purchase_url": "https://store.themidnightecho.com/products/vinyl",
+      "ships_from_country_code": "US",
+      "tags": ["vinyl", "neon-horizons"],
+      "sources": [{ "provider": "shopify", "external_id": "gid://shopify/Product/8123456789" }],
+      "updated_at": "2026-10-01T14:58:03Z"
+    }
+  ],
+  "links": [
+    { "label": "Join the mailing list", "url": "https://themidnightecho.com/newsletter", "kind": "newsletter" },
+    { "label": "Press kit", "url": "https://themidnightecho.com/epk", "kind": "epk" }
+  ],
+  "x_artistjson": { "theme": "neon", "plan": "pro" }
+}

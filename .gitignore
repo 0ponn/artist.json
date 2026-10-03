@@ -1,0 +1,4 @@
+node_modules/
+dist/
+# copied from the root at pack time
+packages/*/LICENSE

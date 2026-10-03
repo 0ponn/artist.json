@@ -1,0 +1,55 @@
+{
+  "name": "@artistjson/core",
+  "version": "0.0.1",
+  "description": "Types, validator and discovery client for artist.json, the open standard for artist tour dates, releases and merchandise.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0ponn/artist.json.git",
+    "directory": "packages/core"
+  },
+  "homepage": "https://artistjson.org",
+  "keywords": [
+    "artist.json",
+    "artistjson",
+    "music",
+    "tour-dates",
+    "json-schema",
+    "well-known"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "bin": {
+    "artistjson": "./dist/cli.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "generate": "node scripts/generate.ts",
+    "build": "rm -rf dist && tsc -p tsconfig.build.json",
+    "test": "node --test test/*.test.ts",
+    "prepack": "npm run build && cp ../../LICENSE LICENSE"
+  },
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1"
+  },
+  "devDependencies": {
+    "json-schema-to-typescript": "^15.0.4"
+  },
+  "bugs": {
+    "url": "https://github.com/0ponn/artist.json/issues"
+  }
+}
